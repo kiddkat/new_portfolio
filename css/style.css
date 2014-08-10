@@ -27,12 +27,24 @@
 		-webkit-text-stroke: 0.1px;
 	}
 
-	h1,h2,h3,h4,h5,h6
+	h1 {
+		font-size: .775em;
+		letter-spacing: 2px
+		margin-bottom: 15px; 
+		position: relative;
+		top: 0;
+		z-index: 2;
+		color: white;
+	 	text-shadow: 1px 1px 1px rgba(89,0,70,1), 1px 1px 1px rgba(89,0,70,1);
+	}
+
+	h1, h2,h3,h4,h5,h6
 	{
 		color: #666;
 		margin: 0 0 1em 0;
 		font-weight: 100;
 		line-height: 1.5em;
+
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -134,9 +146,9 @@
 			border-left-color: rgba(255,255,255,0.5);
 		}
 	
-	p, ul, ol, dl, table
+	p, ul, ol, dl, table, blockquote
 	{
-		margin-bottom: 1em;
+		margin-bottom: 0 0 2em 0;
 	}
 	
 	p
@@ -144,9 +156,18 @@
 		text-align: justify;
 	}
 
+	.shadowtext p {
+		position: absolute;
+		top: 0;
+		z-index: 1;
+		color: white;
+	 	text-shadow: 1px 3px 0 rgba(89,0,70,1), 1px 0px 0 rgba(89,0,70,1);
+	 	margin-bottom: 20px;
+	}
+
 	header
 	{
-		margin-bottom: 1em;
+		margin-bottom: 0 0 2em 0;
 	}
 	
 		header h1,
@@ -1168,6 +1189,25 @@
 		text-align: center;
 		color: #fff;
 	}
+
+	#header.alt {
+		-webkit-animation: none;
+		background: transparent;
+		box-shadow: none;
+		color: white;
+		padding: 2em 2.5em;
+		position: absolute;
+	}
+
+	#header > .content.style4
+
+			{
+				background:	url('images/bgtr.svg') top right no-repeat,
+							url('images/bgbl.svg') bottom left no-repeat,
+							url('images/overlay.png'),
+							linear-gradient(45deg);
+			}
+
 	
 		#header:after
 		{
@@ -1190,14 +1230,15 @@
 		}
 		
 		#header header{
-			
+
 		}
 
 			#header header h1
 			{
-				font-size: 2.25em;
+				font-size: 3.25em;
 				line-height: 1.25em;
 				margin-bottom: 0;
+				color: #fff;
 			}
 			
 			#header header p
