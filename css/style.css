@@ -35,7 +35,7 @@
 		top: 0;
 		z-index: 2;
 		color: white;
-	 	text-shadow: 1px 1px 1px rgba(89,0,70,1), 1px 1px 1px rgba(89,0,70,1);
+	 	/*text-shadow: 1px 1px 1px rgba(89,0,70,1), 1px 1px 1px rgba(89,0,70,1);*/
 	}
 
 	h1, h2,h3,h4,h5,h6
@@ -153,7 +153,15 @@
 	
 	p
 	{
-		text-align: justify;
+		text-align: left;
+	}
+
+	.par1 {
+		margin: 20px 0px; 
+	}
+
+	.wordbreak {
+		word-break:keep-all;
 	}
 
 	.shadowtext p {
@@ -161,8 +169,20 @@
 		top: 0;
 		z-index: 1;
 		color: white;
-	 	text-shadow: 1px 3px 0 rgba(89,0,70,1), 1px 0px 0 rgba(89,0,70,1);
-	 	margin-bottom: 20px;
+	 	/*text-shadow: 1px 1px 1px rgba(89,0,70,1), 1px 1px 1px rgba(89,0,70,1);
+	 	margin-bottom: 25px;*/
+	}
+
+	.thicker p {
+		font-weight: 900;
+	}
+
+	.4u h3 p
+	{
+		font-size: 1em;
+		line-height: 1.25em;
+		margin: 1.25em 0;
+		text-align: left;
 	}
 
 	header
@@ -606,6 +626,7 @@
 					}
 	
 	/* Buttons */
+
 		
 		.button
 		{
@@ -614,7 +635,7 @@
 			display: inline-block;
 			background: #3d3d3d;
 			padding: 0.85em 3em 0.85em 3em;
-			border-radius: 0.25em;
+			border-radius: 0.5em;
 			cursor: pointer;
 			border: 0;
 			color: #fff;
@@ -631,6 +652,22 @@
 			{
 				background: #4f4f4f;
 			}
+
+			.dark .button.circle-button {
+				background: rgba(255,255,255,0.15) url('images/dark-arrow1.svg') no-repeat center;
+				box-shadow: inset 0 0 0 1px #fff;
+				border-radius: 3.5em;
+				width: 5em;
+				height: 5em;
+				line-height: 4.5em;
+				border: solid .5px;
+				cursor: pointer;
+				padding: 0;
+			}
+
+			.dark .button.circle-button:hover {
+				background: rgba(0,0,0,0.025) url('images/dark-arrow1.svg') no-repeat center;
+			}
 			
 		.button.alt
 		{
@@ -646,14 +683,14 @@
 
 			.dark .button
 			{
-				background: rgba(255,255,255,0.15);
-				box-shadow: inset 0 0 0 1px #fff;
+				background: #3d3d3d; /* pevious rgba(51,51,51,0.15) */
+				box-shadow: inset 0 0 0 1px #333;
 				color: #fff;
 			}
 			
 				.dark .button:hover
 				{
-					background: rgba(255,255,255,0.25);
+					background: #4f4f4f; /*previous rgba(255,255,255,0.25)*/
 				}
 
 			.dark .button.alt
@@ -1235,19 +1272,34 @@
 
 			#header header h1
 			{
-				font-size: 3.25em;
-				line-height: 1.25em;
-				margin-bottom: 0;
+				font-size: 1.5em;
+				font-weight: 200;
+				line-height: 2.75em;
+				margin-bottom: 15px;
 				color: #fff;
+				padding-left: 23px;
+				letter-spacing: 23px;
 			}
 			
 			#header header p
 			{
-				margin-top: 1.25em;
-				font-weight: 100;
+				font-weight: 200;
 				padding: 0;
-				font-size: 1.25em;
-				line-height: 1.5em;
+				font-size: 2.5em;
+				line-height: 2em;
+				color: #fff;
+				letter-spacing: 3.75px;
+			}
+
+			.divider {
+				border-bottom: 7px solid #fff;
+				margin: 10px 10px;
+			}
+
+			.title.divider {
+				margin: 10px auto;
+				width: 50px;
+
 			}
 			
 		#header footer
@@ -1301,6 +1353,11 @@
 				font-size: 1.5em;
 			}
 
+			.main > .content #portfolio1 h3 
+			{
+				font-size: 2.5em;
+			}
+
 			.main > .content.dark
 			{
 				background: #433;
@@ -1312,7 +1369,7 @@
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
-							linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+							linear-gradient(45deg, #b39c68, #669999, #412e4c);
 			}
 
 			.main > .content.style2
@@ -1320,7 +1377,7 @@
 				background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
-							linear-gradient(45deg, #384955, #655361, #85505f);
+							linear-gradient(45deg, #384955, #b39c68, #669999);
 			}
 
 			.main > .content.style3
@@ -1328,7 +1385,7 @@
 				background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
-							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+							linear-gradient(45deg, #5f796b, #b39c68, #384955);
 			}
 
 			.main > .content.style4
