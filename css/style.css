@@ -11,6 +11,21 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+	.wrapper {
+	width:960;
+	margin: 0 auto;
+
+	}
+
+	.col-1 {
+		width: 100%;
+		height: 100%;
+		margin: 10px;
+		border: 2px solid aqua;
+		padding: 20px;
+		position: relative;
+
+	}
 
 	body
 	{
@@ -29,7 +44,7 @@
 
 	h1 {
 		font-size: .775em;
-		letter-spacing: 2px
+		/*letter-spacing: 15px;*/
 		margin-bottom: 15px; 
 		position: relative;
 		top: 0;
@@ -62,6 +77,10 @@
 		{
 			color: #fff;
 		}
+
+		.dark.thicker h1 {
+		font-weight: 900;
+	}
 		
 	strong, b
 	{
@@ -171,10 +190,6 @@
 		color: white;
 	 	/*text-shadow: 1px 1px 1px rgba(89,0,70,1), 1px 1px 1px rgba(89,0,70,1);
 	 	margin-bottom: 25px;*/
-	}
-
-	.thicker p {
-		font-weight: 900;
 	}
 
 	.4u h3 p
@@ -1212,6 +1227,57 @@
 		.fa-turkish-lira:before,.fa-try:before{content:"\f195"}
 
 /*********************************************************************************/
+/* Navbar                                                                        */
+/*********************************************************************************/
+#navbar .wrapper a 
+{
+			color: #fff;
+			border: none;
+			border-bottom-color: rgba(255,255,255,0.5);
+			float: left;
+			position: fixed;
+			width: 100%;
+		}
+
+#navbar a:hover
+
+{
+	border-bottom-color: rgba(255,255,255,0);
+}
+
+#navbar h2
+
+{
+font-weight: 200;
+padding: 20px 20px;
+
+}
+
+/*********************************************************************************/
+/* Modal                                                                        */
+/*********************************************************************************/
+
+#screen, #modal {
+    display: none;
+    position: fixed;
+}
+
+#screen {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    z-index: 1;
+}
+
+#modal {
+    width: 33.333%;
+    top: 20%;
+    left: 33.3333%;
+    background: white;
+    z-index: 2;
+}
+
+/*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
@@ -1272,23 +1338,28 @@
 
 			#header header h1
 			{
-				font-size: 1.5em;
-				font-weight: 200;
+
+				font-size: 2.25em;
+				font-weight: 250;
 				line-height: 2.75em;
-				margin-bottom: 15px;
+				/*--margin-bottom: 15px;--*/
 				color: #fff;
 				padding-left: 23px;
-				letter-spacing: 23px;
+				letter-spacing: 3px;
+				text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);
+
 			}
 			
 			#header header p
 			{
-				font-weight: 200;
+				font-weight: 100;
 				padding: 0;
-				font-size: 2.5em;
-				line-height: 2em;
+				font-size: 1.25em;
+				line-height: 1.5em;
 				color: #fff;
-				letter-spacing: 3.75px;
+				text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);
+				letter-spacing: 3px;
+				margin-bottom: 20px;
 			}
 
 			.divider {
