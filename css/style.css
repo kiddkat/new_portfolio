@@ -1241,18 +1241,23 @@
 #navbar nav {
 	float: right;
 	padding: 20px 20px;
+	
 }
 
 #navbar h2
 {
+	color: #777;
+	font-size: 1.15em;
 	font-weight: 200;
+	line-height: 1.5em;
 	padding: 20px 20px;
+	padding-right: 20px;
+	word-spacing: 0.3em;
 }
 
 #navbar nav a 
 {
-	color: #666;
-	font-size: 1.25em;
+	font-size: 1.15em;
 	font-weight: 200;
 	line-height: 1.5em;
 	border: none;
@@ -1262,6 +1267,7 @@
 
 #navbar nav a:hover
 {
+	color: #333;
 	border-bottom-color: rgba(255,255,255,0);
 }
 
@@ -1287,6 +1293,14 @@
     left: 33.3333%;
     background: white;
     z-index: 5;
+}
+
+#trigger-modal {
+	width: 30px;
+	height: 30px;
+	background: aqua;
+	position: relative;
+	z-index: 90;
 }
 
 /*********************************************************************************/
@@ -1358,7 +1372,7 @@
 				color: #fff;
 				padding-left: 23px;
 				letter-spacing: 3px;
-				text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);
+				text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);		
 
 			}
 			
