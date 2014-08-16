@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+  #navbar nav a {
+    display: block;
+    float: none;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+  }
+  #navbar nav {
+    display: none;
+    width: 100%;
+  }
+  #trigger-modal {
+    display: block;
+  }
+}

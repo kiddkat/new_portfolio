@@ -11,15 +11,18 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/font-awesome.css">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/modal.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
+		<link rel="stylesheet" href="css/device-styles.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		
@@ -29,18 +32,14 @@
 	</head>
 
 	<body>
-		<i>hello</i>
-		<!-- Modal-->
-		<div id="screen"></div> <!-- closed screen tag -->
-		<div id="modal"></div> <!-- closed modal tag -->
-		
-
+		<div id="screen"></div>
 		<div id="navbar">
 			<div class="wrapper">
+				<h2>ALISON JENG</h2>
+				<a id="trigger-modal" href="#"><i class="fa fa-bars"></i></a>
 				<nav>
 					<a href="Home">Home</a> <a href="About">About</a> <a href="Skills">Skills</a> <a href="Resume">Resume</a> <a href="Portfolio">Portfolio</a> <a href="Contact">Contact</a>
 				</nav>
-				<h2>ALISON JENG</h2>
 			</div><!-- wrapper -->
 		</div><!-- #navbar -->
 
@@ -48,11 +47,11 @@
 			<section id="header" class="dark">
 				<header>
 					<div class="container"> 
-				</div><!-- navbar -->
 							<h1>UI/UX Designer</h1>
 								<!-- div class="title divider">	
 								</div -->
-							<div><p>I aspire to create experiences that make people happy</p>
+							<div>
+								<p>I aspire to create experiences that make people happy</p>
 						</div>
 					</div>
 				</header>
@@ -66,7 +65,7 @@
 				<header>
 					<div class="container">
 						<h2>About</h2>
-						<p><i class="fa fa-bomb"></i>I'm always cooking something&#8212;whether it is in my head trying to craft a strategy to solve a design problem. Or in the kitchen stirring up a finger licking feast. Whatever it is that I'm cooking, I always aim to please and do my best to hit the sweet spot.</p>
+						<p>I'm always cooking something&#8212;whether it is in my head trying to craft a strategy to solve a design problem. Or in the kitchen stirring up a finger licking feast. Whatever it is that I'm cooking, I always aim to please and do my best to hit the sweet spot.</p>
 					</div>
 				</header>
 				<div class="content dark style1 featured">
@@ -100,7 +99,7 @@
 								</section>
 							</div>
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="12u">
 								<a href="http://www.condenast.com"></a>
 									<img src="" alt="" height="60">
@@ -118,7 +117,7 @@
 									<a href="#second" class="button scrolly">View my resume</a>
 								</footer>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>
@@ -169,9 +168,9 @@
 			
 		<!-- Third -->
 			<section id="third" class="main">
-				<header>
+				<!-- <header>
 					<div class="container">
-						<!--<h2>Ornare varius lorem ipsum ante lectus</h2>
+						<h2>Ornare varius lorem ipsum ante lectus</h2>
 						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
 						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
 					</div>
@@ -217,12 +216,12 @@
 								dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet 
 								consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
 								<footer>
-									<a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>-->
+									<a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>
 								</footer>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</section>
 
 		<!-- Basic Elements -->
@@ -444,6 +443,5 @@
 					</ul>
 				</div>
 			</section>
-
 	</body>
 </html>

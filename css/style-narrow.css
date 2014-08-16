@@ -12,7 +12,13 @@
 	{
 		text-align: center;
 	}
+
+	#navbar h2 {
+		text-align: left;
+	}
 	
+	
+
 		header > p
 		{
 			text-align: center;
