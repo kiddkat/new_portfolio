@@ -11,6 +11,12 @@ $(document).ready(function(){
     }
   });
 
+  $('#navbar h2 a').click(function(event){
+    event.preventDefault();
+    $('.main_h').removeClass('sticky');
+  });
+
+
   //For navigation modal
 
   $("#trigger-modal").click(function(event){
