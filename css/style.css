@@ -833,6 +833,7 @@
 
 #navbar nav a 
 {
+	display: inline-block; /* prevents snapping back to original size on hover scale change */ 
 	font-size: 1.15em;
 	font-weight: 250;
 	line-height: 1.5em;
