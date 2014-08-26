@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 930px) {
   #navbar nav a {
     display: block;
     float: none;
@@ -24,8 +24,8 @@
   }
 
   .background: url('../images/pico1.jpg'); {
-        width: 100%;
-        max-width: 100%;
+    width: 100%;
+    max-width: 100%;
     }
 
 }

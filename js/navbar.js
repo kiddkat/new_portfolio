@@ -21,14 +21,14 @@ $(document).ready(function(){
 
   $("#trigger-modal").click(function(event){
     event.preventDefault();
-    $('#navbar nav, #screen').toggle();
+    $('#navbar nav').toggle(); //previously $('#navbar nav, #screen').toggle();
   });
 
   // fix hidden links on window resize
 
   $(window).resize(function() {
     if ($(window).width() > 800) {
-      $('#navbar nav, #screen').removeAttr('style');
+      $('#navbar nav').removeAttr('style'); //previously $('#navbar nav, #screen')
     }
   });
 

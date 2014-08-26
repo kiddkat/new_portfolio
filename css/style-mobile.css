@@ -1,5 +1,5 @@
 /*
-	Tessellate 1.0 by HTML5 UP
+	Tessellate by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -13,7 +13,7 @@
 		font-size: 11pt;
 	}
 
-	/* Sections/Articles */
+	/* Sections/Article */
 
 		section,
 		article,
@@ -23,7 +23,7 @@
 			margin: 0 0 1.5em 0 !important;
 		}
 
-	/* Buttons */
+	/* Button */
 
 		.button
 		{
@@ -33,7 +33,7 @@
 			max-width: 300px;
 		}
 
-	/* Lists */
+	/* List */
 
 		ul.icons
 		{
