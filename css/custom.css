@@ -176,7 +176,9 @@
 	}
 
 	.par1 {
+		font-size: 0.97em;
 		margin: 20px 0px; 
+		padding-right: 10px;
 	}
 
 	.wordbreak {
@@ -239,6 +241,7 @@
 	
 		.featured p
 		{
+			font-size: 0.97em;
 			text-align: center;
 		}
 
@@ -925,12 +928,13 @@
 	{
 		position: relative;
 		margin: 0;
-		background: url('../images/header.jpg');
-		background-size: cover;
+		background: url('../images/header.jpg') no-repeat;
+		background-size: 100%;
 		background-position: center center;
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
+		height: 944px;
 	}
 
 	#header.alt {
@@ -981,7 +985,7 @@
 
 				font-size: 2.25em;
 				font-weight: 250;
-				line-height: 2.75em;
+				line-height: 1.125em;
 				/*--margin-bottom: 15px;--*/
 				color: #fff;
 				padding-left: 23px;
@@ -1045,6 +1049,7 @@
 		
 			.main > header p
 			{
+				font-size: 0.97em;
 				margin: 2em 0 0 0;
 				padding: 0;
 				text-align: center;
