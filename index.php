@@ -174,10 +174,23 @@
 				</header>
 				<div class="content style4 featured">
 					<div class="container small">
-						<form method="post" action="#">
+						<?php if($_POST['send']){ 
+        	    	
+        	    	mail('alisonjeng@gmail.com','Portfolio','The following person inquired about your online portfolio: ' . "
+        	    	Name: {$_POST['name']}
+        	    	Email: {$_POST['email']}
+        	    	Details: {$_POST['message']} 
+        	    	");
+        	        	
+        	     ?>
+        	    <h2 id="hide">Thank you</h3>
+        	    <p>I appreciate your interest in my work. I look forward to speaking with you.</p>
+        	    <?php } else { ?>
+    <!-- Form -->
+						<form method="post" action="<?php $_SERVER['SELF']?>">
 							<div class="row half">
-								<div class="6u"><input type="text" class="text" placeholder="Name" /></div>
-								<div class="6u"><input type="text" class="text" placeholder="Email" /></div>
+								<div class="6u"><input type="text" name="name" class="text" placeholder="Name" /></div>
+								<div class="6u"><input type="text" name="email" class="text" placeholder="Email" /></div>
 							</div>
 							<div class="row half">
 								<div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
@@ -185,12 +198,13 @@
 							<div class="row">
 								<div class="12u">
 									<ul class="actions">
-										<li><input type="submit" class="button" value="Send Message" /></li>
+										<li><input type="submit" name="send" class="button" value="Send Message" /></li>
 										<li><input type="reset" class="button alt" value="Clear Form" /></li>
 									</ul>
 								</div>
 							</div>
 						</form>
+						<?php } ?>
 					</div>
 				</div>
 			</section>

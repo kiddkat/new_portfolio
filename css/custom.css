@@ -929,7 +929,7 @@
 		position: relative;
 		margin: 0;
 		background: url('../images/header.jpg') no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		background-position: center center;
 		padding: 14em 0 14em 0;
 		text-align: center;
