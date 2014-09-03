@@ -212,11 +212,11 @@
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#" class="fa fa-twitter solo"></a></li>
-					<li><a href="#" class="fa fa-linkedin solo"></a></li>
-					<li><a href="#" class="fa fa-google-plus solo"></a></li>
-					<li><a href="#" class="fa fa-tumblr solo"></a></li>
-					<li><a href="#" class="fa fa-github solo"></a></li>
+					<li><a href="https://twitter.com/alison_jeng" class="fa fa-twitter solo"></a></li>
+					<li><a href="https://www.linkedin.com/in/alisonjeng/" class="fa fa-linkedin solo"></a></li>
+					<!--<li><a href="#" class="fa fa-google-plus solo"></a></li>-->
+					<!--<li><a href="http://www.lessonsinuxd.tumblr.com/" class="fa fa-tumblr solo"></a></li>-->
+					<li><a href="https://github.com/kiddkat" class="fa fa-github solo"></a></li>
 				</ul>
 				<div class="copyright">
 					<ul class="menu">
