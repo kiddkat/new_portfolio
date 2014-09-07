@@ -29,3 +29,87 @@
     }
 
 }
+/*
+@media only screen and (max-width: 1650px) {
+  #header {
+    padding: 17% 0 17% 0;
+  }
+  #header header h1 {
+    font-size: 2.15em;
+  }
+  #header header p {
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (max-width: 1575px) {
+  #header {
+    padding: 15% 0 15% 0;
+  }
+  #header header h1 {
+    font-size: 2em;
+  }
+  #header header p {
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #header {
+    padding: 13% 0 13% 0;
+  }
+  #header header h1 {
+    font-size: 1.9em;
+  }
+  #header header p {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 1365px) {
+  #header {
+    padding: 11% 0 11% 0;
+  }
+  #header header h1 {
+    font-size: 1.85em;
+  }
+  #header header p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  #header {
+    padding: 9% 0 9% 0;
+  }
+  #header header h1 {
+    font-size: 1.75em;
+  }
+  #header header p {
+    font-size: .975em;
+  }
+}
+
+@media only screen and (max-width: 1095px) {
+  #header {
+    padding: 7% 0 7% 0;
+  }
+  #header header h1 {
+    font-size: 1.7em;
+  }
+  #header header p {
+    font-size: .95em;
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  #header {
+    padding: 6% 0 6% 0;
+  }
+  #header header h1 {
+    font-size: 1.6em;
+  }
+  #header header p {
+    font-size: .885em;
+  }
+}*/

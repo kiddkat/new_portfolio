@@ -929,12 +929,12 @@
 		position: relative;
 		margin: 0;
 		background: url('../images/header.jpg') no-repeat;
-		background-size: cover;
-		background-position: center center;
-		padding: 14em 0 14em 0;
+		background-size: 150%;
+		background-position: top center;
+		padding: 18% 0 18% 0;
 		text-align: center;
 		color: #fff;
-		height: 944px;
+		/*height: 944px;*/
 	}
 
 	#header.alt {
