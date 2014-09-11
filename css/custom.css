@@ -677,7 +677,7 @@
 				border-radius: 3.5em;
 				width: 5em;
 				height: 5em;
-				line-height: 4.5em;
+				line-height: 3.5em;
 				border: solid .5px;
 				cursor: pointer;
 				padding: 0;
@@ -928,10 +928,15 @@
 	{
 		position: relative;
 		margin: 0;
-		background: url('../images/header.jpg') no-repeat;
+		background-color: rgb(34,2,34);
+		background-image: url('../images/header.jpg');
+		background-repeat: no-repeat;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+		-webkit-background-size: 100%;
 		background-size: 150%;
 		background-position: top center;
-		padding: 18% 0 18% 0;
+		padding: 19% 0 19% 0;
 		text-align: center;
 		color: #fff;
 		/*height: 944px;*/
@@ -984,24 +989,27 @@
 			{
 
 				font-size: 2.25em;
-				font-weight: 250;
+				font-weight: 2  00;
 				line-height: 1.125em;
 				/*--margin-bottom: 15px;--*/
 				color: #fff;
 				padding-left: 23px;
 				letter-spacing: 3px;
-				text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);		
+				/*text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);*/
+				text-shadow: 2px 2px 2px rgba(51,51,151,1), 2px 2px 2px rgba(51,51,51,1);		
+		
 
 			}
 			
 			#header header p
 			{
-				font-weight: 100;
+				font-weight: 200;
 				padding: 0;
 				font-size: 1.25em;
 				line-height: 1.5em;
 				color: #fff;
-				text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);
+				/*text-shadow: 2px 2px 2px rgba(0,51,51,1), 2px 2px 2px rgba(0,51,51,1);*/
+				text-shadow: 2px 2px 2px rgba(51,51,151,1), 2px 2px 2px rgba(51,51,51,1);		
 				letter-spacing: 3px;
 				margin-bottom: 20px;
 			}
@@ -1019,7 +1027,7 @@
 			
 		#header footer
 		{
-			padding-top: 1.5em;
+			padding-top: 1em;
 		}
 	
 /*********************************************************************************/

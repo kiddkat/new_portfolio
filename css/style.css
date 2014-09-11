@@ -632,7 +632,7 @@
 			display: inline-block;
 			background: #3d3d3d;
 			padding: 0.85em 3em 0.85em 3em;
-			border-radius: 0.25em;
+			border-radius: 0.5em;
 			cursor: pointer;
 			border: 0;
 			color: #fff;
@@ -817,10 +817,6 @@
 	{
 		position: relative;
 		margin: 0;
-		background-image:			url('images/overlay.png'),			url('../images/header.jpg');
-		background-size:			auto,								cover;
-		background-position:		top left,							center center;
-		background-repeat:			repeat,								no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;

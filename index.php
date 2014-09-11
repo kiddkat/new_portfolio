@@ -10,6 +10,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
@@ -34,7 +35,7 @@
 				<h2><a href="Alison Jeng">ALISON JENG</a></h2>
 				<a id="trigger-modal" href="#"><i class="fa fa-bars"></i></a>
 				<nav>
-					<a href="index.html">HOME</a><a href="#about">ABOUT</a><!--<a href="#skills">SKILLS</a>--><a href="http://google.com/">RESUME</a><a href="http://google.com">PORTFOLIO</a><a href="#contact">CONTACT</a>
+					<a href="">HOME</a><a href="#about">ABOUT</a><!--<href="#skills">SKILLS</a>--><a href="http://google.com/">RESUME</a><a href="http://google.com">PORTFOLIO</a><a href="#contact">CONTACT</a>
 				</nav>
 			</div><!-- wrapper -->
 		</div><!-- #navbar -->
