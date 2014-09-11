@@ -54,6 +54,18 @@
    margin-bottom: 10px;
   }
 
+  .par1 {
+  padding-right: 1em;
+  padding-left: 1em;
+  }
+
+  .main > header p {
+  padding: 0 1em 0 1em;
+  }
+
+  .featured p {
+  padding: 0 1em 0 1em;
+  }
 }
 
 
